@@ -1,10 +1,10 @@
 import React from 'react';
-import {DefaultTheme, ThemeProvider} from 'styled-components';
+import {ThemeProvider} from 'styled-components';
 import {FaAngleLeft, FaAngleRight, FaAngleDoubleLeft, FaAngleDoubleRight} from 'react-icons/fa';
 import {Container, Last, First, LeftStrip, MidStrip, RightStrip, Next, Prev, Link, Item, ItemLink} from './elements';
-import type {PaginationProps, State} from './Pagination.types';
+import type {PaginationProps, State, Theme} from './Pagination.types';
 
-const defaultTheme: DefaultTheme = {
+const defaultTheme: Theme = {
   colors: {
     active: '#2778fa',
     activeFont: '#ffffff',

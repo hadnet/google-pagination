@@ -1,10 +1,18 @@
-import {DefaultTheme} from 'styled-components';
+interface Theme {
+  colors: {
+    active: string;
+    activeFont: string;
+    font: string;
+    background: string;
+    roundBtns?: string;
+  };
+}
 
 interface PaginationProps<T> {
   initialPage: number;
   items: T[];
   onChangePage: (chunk: T[]) => void;
-  theme?: DefaultTheme;
+  theme?: Theme;
 }
 
 type PagerProps =
@@ -24,4 +32,4 @@ interface State {
   };
 }
 
-export type {PaginationProps, PagerProps, State, DefaultTheme};
+export type {PaginationProps, PagerProps, State, Theme};

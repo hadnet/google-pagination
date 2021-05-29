@@ -1,14 +1,8 @@
 import 'styled-components';
+import {Theme} from './Pagination.types';
 
 // extends DefaultTheme
 declare module 'styled-components' {
-  export interface DefaultTheme {
-    colors: {
-      active: string;
-      activeFont: string;
-      font: string;
-      background: string;
-      roundBtns?: string;
-    };
-  }
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  export interface DefaultTheme extends Theme {}
 }
