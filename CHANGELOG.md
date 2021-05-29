@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/hadnet/google-pagination/compare/v1.0.5...v1.0.6) (2021-05-29)
+
+
+### Bug Fixes
+
+* fix theme type ([2f8110c](https://github.com/hadnet/google-pagination/commit/2f8110c160d926318a3b03019a40834b6ae0ce01))
+
 ## [1.0.5](https://github.com/hadnet/google-pagination/compare/v1.0.4...v1.0.5) (2021-05-29)
 
 
