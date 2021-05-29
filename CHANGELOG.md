@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/hadnet/google-pagination/compare/v1.0.3...v1.0.4) (2021-05-29)
+
+
+### Bug Fixes
+
+* fix Prev Next elements ([69a78ff](https://github.com/hadnet/google-pagination/commit/69a78ff7800c6cecc789b9924fb59876174c9509))
+
 ## [1.0.3](https://github.com/hadnet/google-pagination/compare/v1.0.2...v1.0.3) (2021-05-29)
 
 
