@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/hadnet/google-pagination/compare/v1.0.4...v1.0.5) (2021-05-29)
+
+
+### Bug Fixes
+
+* fix export types ([2b3112e](https://github.com/hadnet/google-pagination/commit/2b3112e598195a1f28c7dbdfd6112fb01ecd5247))
+
 ## [1.0.4](https://github.com/hadnet/google-pagination/compare/v1.0.3...v1.0.4) (2021-05-29)
 
 
