@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/hadnet/google-pagination/compare/v1.1.0...v1.1.1) (2021-05-29)
+
+
+### Bug Fixes
+
+* using peerDep ([75ad98c](https://github.com/hadnet/google-pagination/commit/75ad98c19dfb76aa080ab61233febfa14d549dcf))
+
 # [1.1.0](https://github.com/hadnet/google-pagination/compare/v1.0.6...v1.1.0) (2021-05-29)
 
 
