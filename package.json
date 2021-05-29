@@ -5,7 +5,7 @@
   "author": "hadnet",
   "repository": {
     "type": "git",
-    "url": "git@github.com:hadnet/google-pagination.git\n"
+    "url": "git@github.com:hadnet/google-pagination.git"
   },
   "publishConfig": {
     "access": "public",
