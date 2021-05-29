@@ -1,3 +1,5 @@
+![Pagination Demo](pagination.gif)
+
 # Getting Started
 
 ### `yarn add google-pagination`
