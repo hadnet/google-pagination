@@ -1,0 +1,44 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Pagination/Introduction" />
+
+<style>{`
+  .tip {
+    display: inline-block;
+    border-radius: 1em;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 700;
+    background: #E7FDD8;
+    color: #66BF3C;
+    padding: 4px 12px;
+    margin-right: 10px;
+    vertical-align: top;
+  }
+
+  .tip-wrapper {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+`}</style>
+
+# Pagination Pattern
+
+The pagination allows you to get a subset of sorted data in a comprehensible form. Moreover,
+design pattern is widely used in websites that open up a lot of content to users. From search
+engines such as Google and Firefox, to e-commerce sites such as Amazon and Asos—the use of
+pagination is very, very broad.
+
+### Usage
+- Use when it is unsuitable to display all the data on a single page/screen.
+- Use when the dataset is in some way ordered.
+- Do not use when you don’t want the user to pause for navigating to the next page.
+
+
+<div className="tip-wrapper">
+  <span className="tip">Remember</span>
+  Structure and hierarchy reduce complexity and improve readability.
+  The more organized your items are, the easier it is for users to follow.
+</div>
