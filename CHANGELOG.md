@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/hadnet/google-pagination/compare/v1.0.2...v1.0.3) (2021-05-29)
+
+
+### Bug Fixes
+
+* fix package.json ([8c44cdb](https://github.com/hadnet/google-pagination/commit/8c44cdb3c185d44e196123da515e549b4b1bac2f))
+
 ## [1.0.2](https://github.com/hadnet/google-pagination/compare/v1.0.1...v1.0.2) (2021-05-29)
 
 
