@@ -54,7 +54,8 @@ export const RightStrip = styled.ul`
 `;
 
 export const Prev = styled.li`
-  margin: 2px !important;
+  ${ItemBase};
+  margin: 4px !important;
 `;
 
 export const Next = Prev;
