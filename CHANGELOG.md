@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/hadnet/google-pagination/compare/v1.0.6...v1.1.0) (2021-05-29)
+
+
+### Features
+
+* storybook config ([caffba9](https://github.com/hadnet/google-pagination/commit/caffba953402e5438b7c2847911e6e696fb84bdc))
+
 ## [1.0.6](https://github.com/hadnet/google-pagination/compare/v1.0.5...v1.0.6) (2021-05-29)
 
 
