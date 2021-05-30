@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/hadnet/google-pagination/compare/v1.1.2...v1.1.3) (2021-05-30)
+
+
+### Bug Fixes
+
+* fix SB init issue w/ install peers & fix active hover font color ([76c0665](https://github.com/hadnet/google-pagination/commit/76c06652a4649dea7ebaccd5917217be889e7a23))
+
 ## [1.1.2](https://github.com/hadnet/google-pagination/compare/v1.1.1...v1.1.2) (2021-05-30)
 
 
