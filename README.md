@@ -2,8 +2,9 @@
 
 # Getting Started
 
-### `yarn add google-pagination`
-### `npm install google-pagination`
+`yarn add google-pagination`
+
+`npm install google-pagination`
 
 ## Storybook
 
