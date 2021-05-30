@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/hadnet/google-pagination/compare/v1.1.1...v1.1.2) (2021-05-30)
+
+
+### Bug Fixes
+
+* fix typo README.md ([9d57bf8](https://github.com/hadnet/google-pagination/commit/9d57bf814b44a9fa93684708341e18550f370c16))
+
 ## [1.1.1](https://github.com/hadnet/google-pagination/compare/v1.1.0...v1.1.1) (2021-05-29)
 
 
