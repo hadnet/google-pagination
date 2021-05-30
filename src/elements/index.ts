@@ -7,7 +7,7 @@ const FormatBase = css`
   align-items: center;
   border-radius: 13px;
   list-style: none;
-  color: ${({theme}) => theme.colors.font};
+  color: ${({theme}) => theme.colors.font} !important;
   height: 25px;
   margin: 2px 0;
   padding: 0 4px;
@@ -36,20 +36,20 @@ const ItemBase = css`
 
 export const MidStrip = styled.ul`
   ${FormatBase};
-  background-color: ${({theme}) => theme.colors.background};
+  background-color: ${({theme}) => theme.colors.background} !important;
 `;
 
 export const LeftStrip = styled.ul`
   ${FormatBase};
   & > li > a {
-    background-color: ${({theme}) => theme.colors.roundBtns};
+    background-color: ${({theme}) => theme.colors.roundBtns} !important;
   }
 `;
 
 export const RightStrip = styled.ul`
   ${FormatBase};
   & > li > a {
-    background-color: ${({theme}) => theme.colors.roundBtns};
+    background-color: ${({theme}) => theme.colors.roundBtns} !important;
   }
 `;
 
@@ -73,7 +73,7 @@ export const Link = styled.a`
   width: 25px;
   height: 25px;
   border-radius: 100%;
-  background-color: ${({theme}) => theme.colors.background};
+  background-color: ${({theme}) => theme.colors.background} !important;
   transition: all 0.2s;
   &:hover {
     width: 25px;
