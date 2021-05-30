@@ -86,7 +86,7 @@ export const ItemLink = styled.a<{active?: boolean}>`
   ${LinkBase};
   transition: all 0.2s;
   &:hover {
-    color: ${({active, theme}) => (active ? '#fff' : theme.colors.active)} !important;
+    color: ${({active, theme}) => (active ? theme.colors.font : theme.colors.active)} !important;
   }
   ${({active}) =>
     active &&
@@ -100,6 +100,9 @@ export const ItemLink = styled.a<{active?: boolean}>`
         }};
       background-color: ${({theme}) => theme.colors.active};
       color: ${({theme}) => theme.colors.activeFont} !important;
+      &:hover {
+        color: ${({theme}) => theme.colors.activeFont} !important;
+      }
     `}
 `;
 
