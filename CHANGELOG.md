@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/hadnet/google-pagination/compare/v1.1.3...v1.2.0) (2021-05-31)
+
+
+### Features
+
+* allow to config the number of items for each page ([79afce7](https://github.com/hadnet/google-pagination/commit/79afce7f6a642be6529a55c95a73a263d64b5d5b))
+
 ## [1.1.3](https://github.com/hadnet/google-pagination/compare/v1.1.2...v1.1.3) (2021-05-30)
 
 
