@@ -10,6 +10,7 @@ interface Theme {
 
 interface PaginationProps<T> {
   initialPage: number;
+  pageSize: number;
   items: T[];
   onChangePage: (chunk: T[]) => void;
   theme?: Theme;

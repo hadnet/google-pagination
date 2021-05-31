@@ -19,6 +19,9 @@ export default {
     onChangePage: {
       description: 'Callback that returns the items for each page.',
     },
+    pageSize: {
+      description: 'Config the number of items for each page.',
+    },
   },
 } as Meta;
 

@@ -21,6 +21,7 @@ export class Pagination<T> extends React.Component<PaginationProps<T>, State> {
 
   static defaultProps = {
     initialPage: 1,
+    pageSize: 10,
     theme: defaultTheme,
   };
 
@@ -39,18 +40,18 @@ export class Pagination<T> extends React.Component<PaginationProps<T>, State> {
   }
 
   setPage(page: number) {
-    const {items, onChangePage} = this.props;
+    const {items, onChangePage, pageSize} = this.props;
     let {pager} = this.state;
     if (page < 1 || page > (pager.totalPages ?? page + 1)) {
       return;
     }
-    pager = this.getPager(items.length, page);
+    pager = this.getPager(items.length, page, pageSize);
     const pageOfItems = items.slice(pager.startIndex, pager.endIndex! + 1);
     this.setState({pager});
     onChangePage(pageOfItems);
   }
 
-  getPager(totalItems: number, currentPage = 1, pageSize = 10) {
+  getPager(totalItems: number, currentPage = 1, pageSize: number) {
     const totalPages = Math.ceil(totalItems / pageSize);
     let startPage: number, endPage: number;
     if (totalPages <= 10) {
